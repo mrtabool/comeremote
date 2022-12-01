@@ -1,0 +1,4 @@
+# Project exclude paths
+/db/target/
+/liquibase/target/
+/web/target/
