@@ -29,8 +29,7 @@ public class SimpleMailSender {
     private String protocol;
 
     public void send(String emailTo, String subject, String content) {
-        log.info(userName);
-        log.info(password);
+
         Properties props = new Properties();
 
         props.put("mail.transport.protocol", protocol);
